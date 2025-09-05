@@ -1,15 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="refresh" content="0; url=upi://pay?pa=mirzaarmash@okhdfcbank&pn=YOUR%20NAME&am=500&cu=INR">
+  <meta charset="UTF-8">
+  <title>Payment & Submission</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 20px;
+      margin: 15px;
+      font-size: 18px;
+      color: white;
+      background-color: #007bff;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    a.button:hover {
+      background-color: #0056b3;
+    }
+  </style>
 </head>
 <body>
-<p>If you are not redirected, <a href="upi://pay?pa=mirzaarmash@okhdfcbank&pn=YOUR%20NAME&am=500&cu=INR">click here</a>.</p>
+  <h1>Complete Your Payment</h1>
 
-<h2>Alternative Submission (if form fails)</h2>
-<a href="mailto:manarulquran.education@gmail.com?subject=Details%20Submission&body=Please%20fill%20the%20details%20below:%0A%0AFull%20Name:%20________________%0AMobile%20Number%20(With%20Country%20Code):%20________________%0ADate%20of%20Birth:%20________________%0AGender%20(Male/Female):%20________________%0AStreet%20Address:%20________________%0ACountry:%20________________%0AState:%20________________%0ACity:%20________________%0ACurrent%20Qualification%20(Primary,%20Secondary,%20Undergraduate,%20Postgraduate):%20________________%0A%0A---%0A***%20PLEASE%20ATTACH%20YOUR%20PAYMENT%20RECEIPT%20BELOW%20***" target="_blank">
-   📧 Send your details here
-</a>
+  <!-- UPI Payment Button -->
+  <a href="upi://pay?pa=mirzaarmash@okhdfcbank&pn=YOUR%20NAME&am=500&cu=INR" class="button">
+    💳 Pay via UPI
+  </a>
 
+  <h2>Alternative Submission (if form fails)</h2>
+  <!-- Email Button -->
+  <a href="mailto:manarulquran.education@gmail.com?subject=Details%20Submission&body=Please%20fill%20the%20details%20below:%0A%0AFull%20Name:%20________________%0AMobile%20Number%20(With%20Country%20Code):%20________________%0ADate%20of%20Birth:%20________________%0AGender%20(Male/Female):%20________________%0AStreet%20Address:%20________________%0ACountry:%20________________%0AState:%20________________%0ACity:%20________________%0ACurrent%20Qualification%20(Primary,%20Secondary,%20Undergraduate,%20Postgraduate):%20________________%0A%0A---%0A***%20PLEASE%20ATTACH%20YOUR%20PAYMENT%20RECEIPT%20BELOW%20***" 
+     class="button" target="_blank">
+     📧 Send your details here
+  </a>
 </body>
 </html>
